@@ -1,0 +1,39 @@
+.test{
+    width: 100%;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    background: #34C94B;
+    text-align: center;
+}
+
+.logo{
+    width: 67px;
+    height: 34px;
+    top: 20px;
+    left: 32px;
+    
+    
+}
+
+.search{
+    width: 568px;
+    height: 48px;
+    top: 13px;
+    border-radius: 20px;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.feedback{
+    width: Hug (170px);
+    height: Hug (47px);
+    top: 13px;
+    left: 1238px;
+    padding: 10px, 16px, 10px, 16px;
+    border-radius: 12px;
+    border: 1px;
+    gap: 10px;
+    
+}

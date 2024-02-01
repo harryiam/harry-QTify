@@ -11,26 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-:root{
+
+
+/* :root{
   --color-primary:#34c94b;
   --color-black:#121212;
   --color-white:#ffffff;
-}
+} */
 
-*,
+/* *,
 *::before,
 *::after{
   box-sizing: border-box;
-}
+} */
 
-*{
+/* *{
   margin:0;
-}
+} */
 
-html,
+/* html,
 body{
   height:100%
-}
+} */
 
 body{
   font-family:"Poppins",sans-serif;
@@ -41,26 +43,26 @@ body{
   overflow:hidden;
 }
 
-img,
+/* img,
 picture,
 video,
 canvas,
 svg{
   display: block;
   max-width: 100%;
-}
+} */
 
-input,
+/* input,
 button,
 textarea,
 select{
   font: inherit;
-}
+} */
 
-p,h1,h2,h3,h4,h5,h6{
+/* p,h1,h2,h3,h4,h5,h6{
   overflow-wrap: break-word;
-}
+} */
 
-#root,#__next{
+/* #root,#__next{
   isolation: isolate;
-}
+} */
