@@ -1,11 +1,13 @@
 import styles from "./Navbar.module.css"
 import {InputAdornment,TextField} from "@mui/material";
 import {Search} from "@mui/icons-material";
+import logoimg from "../../assets/logo.png"
+import Logo from "../Logo/Logo";
 
 export default function Navbar(){
     return (
-        <div className={styles.test}> 
-            <div className={styles.logo}><img src="./assets/logo.png" alt="logo" /></div>
+        <div className={styles.navbar}> 
+            <Logo/>
             <div>
                 <TextField
                 className="search-desktop"
