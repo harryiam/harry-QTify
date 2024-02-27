@@ -8,8 +8,8 @@ export default function Navbar(){
     return (
         <nav className={styles.navbar}> 
             <Logo/>
-            <Search/>
-            <Button buttontext="feedback"/>
+            <Search placeholder={"Search Any Song"}/>
+            <Button type="submit" buttontext="feedback"/>
         </nav>
     )
 }
