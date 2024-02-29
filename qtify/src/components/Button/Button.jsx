@@ -5,5 +5,4 @@ return(
     <button className={styles.button}>{buttontext}</button>
 )
 }
-
 export default  Button;
