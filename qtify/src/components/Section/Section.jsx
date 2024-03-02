@@ -14,7 +14,7 @@ export default function Section({title,data,type}){
         <div>
             <div className={styles.header}>
                 <h3>{title}</h3>
-                <h4 className={styles.toggleText} onClick={handletoggle}> {!carouselToggle ? "Collapse All" :"Show all"}</h4>
+                <h4 className={styles.toggleText} onClick={handletoggle}> {!carouselToggle ? "Collapse" :"Show All"}</h4>
             </div>
             {data.length===0 ?(
                 <CircularProgress/>
