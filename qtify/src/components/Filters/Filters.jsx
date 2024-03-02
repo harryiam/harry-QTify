@@ -35,11 +35,10 @@ TabPanel.propTypes = {
 
 
 export default function Filters({filters,selectedFilterIndex,setSelectedFilterIndex}) {
-    console.log(filters,"filters")
 
 //   const [value, setValue] = React.useState(0);
 
-    const handleChange = (newValue) => {
+    const handleChange = (event,newValue) => {
         setSelectedFilterIndex(newValue);
     };
 

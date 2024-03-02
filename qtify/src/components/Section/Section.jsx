@@ -24,7 +24,7 @@ export default function Section({title,data,filterSource,type}){
     },[ ])
 
     const showFilters=filters.length>1;
-    const cardsToRender=data.filter((card)=> showFilters&&selectedFilterIndex!==0 ?card.genre.key===filters[selectedFilterIndex].key : card)
+    const cardsToRender=data.filter((card)=> showFilters && selectedFilterIndex !==0 ? card.genre.key === filters[selectedFilterIndex].key : card)
 
 
 

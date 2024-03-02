@@ -32,8 +32,6 @@ export default  function Carousel({data,renderComponent}){
         slidesPerView={"auto"}
         navigation
         allowTouchMove
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
         >
             <Controls data={data}/>
             <CarouselLeftNavigation/>
