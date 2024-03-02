@@ -29,7 +29,7 @@ export default  function Carousel({data,renderComponent}){
         initialstate={0}
         modules={[Navigation]}
         spaceBetween={40}
-        slidesPerView={"auto"}
+        slidesPerView={8}
         navigation
         allowTouchMove
         onSwiper={(swiper) => console.log(swiper)}
