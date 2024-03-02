@@ -36,7 +36,7 @@ export const fetchSongs=async()=>{
 
 export const fetchFilters=async()=>{
     try{
-        const response=await axios.get(`${BACKEND_ENDPOINT}/geners`);
+        const response=await axios.get(`${BACKEND_ENDPOINT}/genres`);
         return response.data;
     }catch(e){
         console.error(e)
