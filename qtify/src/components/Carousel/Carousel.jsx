@@ -10,9 +10,6 @@ import CarouselRightNavigation from "./CarouselRightNavigation/CarouselRightNavi
 import styles from "./Carousel.module.css"
 
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 const Controls=({data})=>{
     const swiper=useSwiper();
